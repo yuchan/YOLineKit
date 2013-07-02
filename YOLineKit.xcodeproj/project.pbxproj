@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7077ED301773F20F00D52B7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7077ED2F1773F20F00D52B7F /* UIKit.framework */; };
+		7077ED321773F20F00D52B7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7077ED311773F20F00D52B7F /* Foundation.framework */; };
+		7077ED341773F20F00D52B7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7077ED331773F20F00D52B7F /* CoreGraphics.framework */; };
+		7077ED571773F20F00D52B7F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7077ED561773F20F00D52B7F /* SenTestingKit.framework */; };
+		7077ED581773F20F00D52B7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7077ED2F1773F20F00D52B7F /* UIKit.framework */; };
+		7077ED591773F20F00D52B7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7077ED311773F20F00D52B7F /* Foundation.framework */; };
+		7077ED611773F20F00D52B7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED5F1773F20F00D52B7F /* InfoPlist.strings */; };
+		7077ED641773F20F00D52B7F /* YOLineKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077ED631773F20F00D52B7F /* YOLineKitTests.m */; };
+		7077ED6F1773F24F00D52B7F /* YOLineKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077ED6E1773F24F00D52B7F /* YOLineKit.m */; };
+		7077ED721773F7D100D52B7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077ED711773F7D100D52B7F /* AppDelegate.m */; };
+		7077ED731773F7D100D52B7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077ED711773F7D100D52B7F /* AppDelegate.m */; };
+		7077ED771773F7DB00D52B7F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED741773F7DB00D52B7F /* Default-568h@2x.png */; };
+		7077ED781773F7DB00D52B7F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED741773F7DB00D52B7F /* Default-568h@2x.png */; };
+		7077ED791773F7DB00D52B7F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED751773F7DB00D52B7F /* Default.png */; };
+		7077ED7A1773F7DB00D52B7F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED751773F7DB00D52B7F /* Default.png */; };
+		7077ED7B1773F7DB00D52B7F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED761773F7DB00D52B7F /* Default@2x.png */; };
+		7077ED7C1773F7DB00D52B7F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED761773F7DB00D52B7F /* Default@2x.png */; };
+		7077ED7F1773F7F100D52B7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077ED7E1773F7F100D52B7F /* ViewController.m */; };
+		7077ED821773F7FA00D52B7F /* YOLineKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED801773F7FA00D52B7F /* YOLineKit-Info.plist */; };
+		7077ED841773F80500D52B7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077ED831773F80500D52B7F /* main.m */; };
+		7077ED871773F82100D52B7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED851773F82100D52B7F /* InfoPlist.strings */; };
+		7077ED8C1773F82800D52B7F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED881773F82800D52B7F /* ViewController_iPad.xib */; };
+		7077ED8D1773F82800D52B7F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED8A1773F82800D52B7F /* ViewController_iPhone.xib */; };
+		7077ED8F1773F96600D52B7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7077ED7E1773F7F100D52B7F /* ViewController.m */; };
+		7077ED93177402DE00D52B7F /* linebutton_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7077ED92177402DE00D52B7F /* linebutton_40x40.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7077ED5A1773F20F00D52B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7077ED241773F20F00D52B7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7077ED2B1773F20F00D52B7F;
+			remoteInfo = YOLineKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7077ED2C1773F20F00D52B7F /* YOLineKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOLineKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7077ED2F1773F20F00D52B7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7077ED311773F20F00D52B7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7077ED331773F20F00D52B7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7077ED551773F20F00D52B7F /* YOLineKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOLineKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7077ED561773F20F00D52B7F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7077ED5E1773F20F00D52B7F /* YOLineKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YOLineKitTests-Info.plist"; sourceTree = "<group>"; };
+		7077ED601773F20F00D52B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7077ED621773F20F00D52B7F /* YOLineKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YOLineKitTests.h; sourceTree = "<group>"; };
+		7077ED631773F20F00D52B7F /* YOLineKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOLineKitTests.m; sourceTree = "<group>"; };
+		7077ED6D1773F24F00D52B7F /* YOLineKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOLineKit.h; sourceTree = "<group>"; };
+		7077ED6E1773F24F00D52B7F /* YOLineKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOLineKit.m; sourceTree = "<group>"; };
+		7077ED701773F7D100D52B7F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YOLineKitDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		7077ED711773F7D100D52B7F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = YOLineKitDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		7077ED741773F7DB00D52B7F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "YOLineKitDemo/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		7077ED751773F7DB00D52B7F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = YOLineKitDemo/Default.png; sourceTree = SOURCE_ROOT; };
+		7077ED761773F7DB00D52B7F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "YOLineKitDemo/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		7077ED7D1773F7F100D52B7F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = YOLineKitDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		7077ED7E1773F7F100D52B7F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = YOLineKitDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		7077ED801773F7FA00D52B7F /* YOLineKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "YOLineKit-Info.plist"; path = "YOLineKitDemo/YOLineKit-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7077ED811773F7FA00D52B7F /* YOLineKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YOLineKit-Prefix.pch"; path = "YOLineKitDemo/YOLineKit-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7077ED831773F80500D52B7F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = YOLineKitDemo/main.m; sourceTree = SOURCE_ROOT; };
+		7077ED861773F82100D52B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = YOLineKitDemo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		7077ED891773F82800D52B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = YOLineKitDemo/en.lproj/ViewController_iPad.xib; sourceTree = SOURCE_ROOT; };
+		7077ED8B1773F82800D52B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = YOLineKitDemo/en.lproj/ViewController_iPhone.xib; sourceTree = SOURCE_ROOT; };
+		7077ED92177402DE00D52B7F /* linebutton_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linebutton_40x40.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7077ED291773F20F00D52B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7077ED301773F20F00D52B7F /* UIKit.framework in Frameworks */,
+				7077ED321773F20F00D52B7F /* Foundation.framework in Frameworks */,
+				7077ED341773F20F00D52B7F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7077ED511773F20F00D52B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7077ED571773F20F00D52B7F /* SenTestingKit.framework in Frameworks */,
+				7077ED581773F20F00D52B7F /* UIKit.framework in Frameworks */,
+				7077ED591773F20F00D52B7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7077ED231773F20F00D52B7F = {
+			isa = PBXGroup;
+			children = (
+				7077ED911773FA0A00D52B7F /* YOLineKitDemo */,
+				7077ED351773F20F00D52B7F /* YOLineKit */,
+				7077ED5C1773F20F00D52B7F /* YOLineKitTests */,
+				7077ED2E1773F20F00D52B7F /* Frameworks */,
+				7077ED2D1773F20F00D52B7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7077ED2D1773F20F00D52B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7077ED2C1773F20F00D52B7F /* YOLineKit.app */,
+				7077ED551773F20F00D52B7F /* YOLineKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7077ED2E1773F20F00D52B7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7077ED2F1773F20F00D52B7F /* UIKit.framework */,
+				7077ED311773F20F00D52B7F /* Foundation.framework */,
+				7077ED331773F20F00D52B7F /* CoreGraphics.framework */,
+				7077ED561773F20F00D52B7F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7077ED351773F20F00D52B7F /* YOLineKit */ = {
+			isa = PBXGroup;
+			children = (
+				7077ED6D1773F24F00D52B7F /* YOLineKit.h */,
+				7077ED6E1773F24F00D52B7F /* YOLineKit.m */,
+			);
+			path = YOLineKit;
+			sourceTree = "<group>";
+		};
+		7077ED361773F20F00D52B7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7077ED92177402DE00D52B7F /* linebutton_40x40.png */,
+				7077ED741773F7DB00D52B7F /* Default-568h@2x.png */,
+				7077ED751773F7DB00D52B7F /* Default.png */,
+				7077ED761773F7DB00D52B7F /* Default@2x.png */,
+				7077ED801773F7FA00D52B7F /* YOLineKit-Info.plist */,
+				7077ED811773F7FA00D52B7F /* YOLineKit-Prefix.pch */,
+				7077ED851773F82100D52B7F /* InfoPlist.strings */,
+				7077ED831773F80500D52B7F /* main.m */,
+			);
+			name = "Supporting Files";
+			path = YOLineKit;
+			sourceTree = "<group>";
+		};
+		7077ED5C1773F20F00D52B7F /* YOLineKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7077ED621773F20F00D52B7F /* YOLineKitTests.h */,
+				7077ED631773F20F00D52B7F /* YOLineKitTests.m */,
+				7077ED5D1773F20F00D52B7F /* Supporting Files */,
+			);
+			path = YOLineKitTests;
+			sourceTree = "<group>";
+		};
+		7077ED5D1773F20F00D52B7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7077ED5E1773F20F00D52B7F /* YOLineKitTests-Info.plist */,
+				7077ED5F1773F20F00D52B7F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7077ED911773FA0A00D52B7F /* YOLineKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7077ED701773F7D100D52B7F /* AppDelegate.h */,
+				7077ED711773F7D100D52B7F /* AppDelegate.m */,
+				7077ED7D1773F7F100D52B7F /* ViewController.h */,
+				7077ED7E1773F7F100D52B7F /* ViewController.m */,
+				7077ED881773F82800D52B7F /* ViewController_iPad.xib */,
+				7077ED8A1773F82800D52B7F /* ViewController_iPhone.xib */,
+				7077ED361773F20F00D52B7F /* Supporting Files */,
+			);
+			name = YOLineKitDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7077ED2B1773F20F00D52B7F /* YOLineKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7077ED671773F20F00D52B7F /* Build configuration list for PBXNativeTarget "YOLineKit" */;
+			buildPhases = (
+				7077ED281773F20F00D52B7F /* Sources */,
+				7077ED291773F20F00D52B7F /* Frameworks */,
+				7077ED2A1773F20F00D52B7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOLineKit;
+			productName = YOLineKit;
+			productReference = 7077ED2C1773F20F00D52B7F /* YOLineKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7077ED541773F20F00D52B7F /* YOLineKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7077ED6A1773F20F00D52B7F /* Build configuration list for PBXNativeTarget "YOLineKitTests" */;
+			buildPhases = (
+				7077ED501773F20F00D52B7F /* Sources */,
+				7077ED511773F20F00D52B7F /* Frameworks */,
+				7077ED521773F20F00D52B7F /* Resources */,
+				7077ED531773F20F00D52B7F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7077ED5B1773F20F00D52B7F /* PBXTargetDependency */,
+			);
+			name = YOLineKitTests;
+			productName = YOLineKitTests;
+			productReference = 7077ED551773F20F00D52B7F /* YOLineKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7077ED241773F20F00D52B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yusuke Ohashi";
+			};
+			buildConfigurationList = 7077ED271773F20F00D52B7F /* Build configuration list for PBXProject "YOLineKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7077ED231773F20F00D52B7F;
+			productRefGroup = 7077ED2D1773F20F00D52B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7077ED2B1773F20F00D52B7F /* YOLineKit */,
+				7077ED541773F20F00D52B7F /* YOLineKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7077ED2A1773F20F00D52B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7077ED771773F7DB00D52B7F /* Default-568h@2x.png in Resources */,
+				7077ED791773F7DB00D52B7F /* Default.png in Resources */,
+				7077ED7B1773F7DB00D52B7F /* Default@2x.png in Resources */,
+				7077ED871773F82100D52B7F /* InfoPlist.strings in Resources */,
+				7077ED8C1773F82800D52B7F /* ViewController_iPad.xib in Resources */,
+				7077ED8D1773F82800D52B7F /* ViewController_iPhone.xib in Resources */,
+				7077ED93177402DE00D52B7F /* linebutton_40x40.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7077ED521773F20F00D52B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7077ED611773F20F00D52B7F /* InfoPlist.strings in Resources */,
+				7077ED781773F7DB00D52B7F /* Default-568h@2x.png in Resources */,
+				7077ED7A1773F7DB00D52B7F /* Default.png in Resources */,
+				7077ED7C1773F7DB00D52B7F /* Default@2x.png in Resources */,
+				7077ED821773F7FA00D52B7F /* YOLineKit-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7077ED531773F20F00D52B7F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7077ED281773F20F00D52B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7077ED8F1773F96600D52B7F /* ViewController.m in Sources */,
+				7077ED6F1773F24F00D52B7F /* YOLineKit.m in Sources */,
+				7077ED721773F7D100D52B7F /* AppDelegate.m in Sources */,
+				7077ED841773F80500D52B7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7077ED501773F20F00D52B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7077ED641773F20F00D52B7F /* YOLineKitTests.m in Sources */,
+				7077ED731773F7D100D52B7F /* AppDelegate.m in Sources */,
+				7077ED7F1773F7F100D52B7F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7077ED5B1773F20F00D52B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7077ED2B1773F20F00D52B7F /* YOLineKit */;
+			targetProxy = 7077ED5A1773F20F00D52B7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7077ED5F1773F20F00D52B7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7077ED601773F20F00D52B7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7077ED851773F82100D52B7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7077ED861773F82100D52B7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7077ED881773F82800D52B7F /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7077ED891773F82800D52B7F /* en */,
+			);
+			name = ViewController_iPad.xib;
+			path = YOLineKit;
+			sourceTree = "<group>";
+		};
+		7077ED8A1773F82800D52B7F /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7077ED8B1773F82800D52B7F /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			path = YOLineKit;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7077ED651773F20F00D52B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7077ED661773F20F00D52B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7077ED681773F20F00D52B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yusuke Ohashi (CEU7D4YJ3W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yusuke Ohashi (CEU7D4YJ3W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YOLineKitDemo/YOLineKit-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/YOLineKitDemo/YOLineKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E15D82CA-D45E-49FE-A9DB-DEDE8119B675";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E15D82CA-D45E-49FE-A9DB-DEDE8119B675";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7077ED691773F20F00D52B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yusuke Ohashi (CEU7D4YJ3W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yusuke Ohashi (CEU7D4YJ3W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YOLineKitDemo/YOLineKit-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/YOLineKitDemo/YOLineKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E15D82CA-D45E-49FE-A9DB-DEDE8119B675";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E15D82CA-D45E-49FE-A9DB-DEDE8119B675";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7077ED6B1773F20F00D52B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YOLineKit.app/YOLineKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YOLineKitDemo/YOLineKit-Prefix.pch";
+				INFOPLIST_FILE = "YOLineKitTests/YOLineKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7077ED6C1773F20F00D52B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YOLineKit.app/YOLineKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YOLineKitDemo/YOLineKit-Prefix.pch";
+				INFOPLIST_FILE = "YOLineKitTests/YOLineKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7077ED271773F20F00D52B7F /* Build configuration list for PBXProject "YOLineKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7077ED651773F20F00D52B7F /* Debug */,
+				7077ED661773F20F00D52B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7077ED671773F20F00D52B7F /* Build configuration list for PBXNativeTarget "YOLineKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7077ED681773F20F00D52B7F /* Debug */,
+				7077ED691773F20F00D52B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7077ED6A1773F20F00D52B7F /* Build configuration list for PBXNativeTarget "YOLineKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7077ED6B1773F20F00D52B7F /* Debug */,
+				7077ED6C1773F20F00D52B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7077ED241773F20F00D52B7F /* Project object */;
+}
